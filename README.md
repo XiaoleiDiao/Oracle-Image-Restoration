@@ -1,19 +1,18 @@
 # Oracle-Image-Restoration
 Oracle Bone Inscription Image Restoration via Glyph Extraction
 
+All codes can be found in the GlyphUnet folder.
 
 ### Files:
 1. datasets.py: loading images from target path
 2. train.py: Model training pipeline
-3. predict.py: task processing pipeline
+
 
 ### Folders:
 1. data: datasets for training and testing
 2. models: different NN models
-3. saved_models: trained models weights
-4. validImages: validition of test images for visualization
-5. util: Tools for utilizing the model training, or additional processing like visualization.
-6. wandb: wandb recoder for result/parameter visualization (optional)
+3. util: Tools for utilizing the model training, or additional processing like visualization.
+4. wandb: wandb recoder for result/parameter visualization (optional)
 
 
 ### Requirements:
